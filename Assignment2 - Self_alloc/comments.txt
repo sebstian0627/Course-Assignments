@@ -1,0 +1,3 @@
+1 best-fit
+
+For my_heapInfo() the maxSize is calculated by 4096-HEAP_SIZE where HEAP_SIZE is the struct having 4 variables, Number of blocks allocated, current size, free memory and firstNode of the freeList. Note: the first list is stored to get the head of free list in case all the free memory is exhausted. for largest chunk and smallest chunk, I iterate through the free list to find the values.
